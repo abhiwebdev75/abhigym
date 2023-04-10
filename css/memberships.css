@@ -1,0 +1,85 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(78, 76, 76, 0.922);
+    max-width: 300px;
+    height:450px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  }
+  
+.card:hover{
+    box-shadow: 0px 24px 28px 20px rgba(78, 76, 76, 0.922);   
+}
+  .price {
+    color: rgb(84, 2, 2);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(237, 91, 38);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.5;
+  }
+
+  .ycard {
+    box-shadow: 0 4px 8px 0 rgba(78, 76, 76, 0.922);
+    max-width: 300px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    background-image: linear-gradient(to right, #870000, #190a05);
+  }
+  
+.ycard:hover{
+    box-shadow: 0px 24px 28px 20px rgba(78, 76, 76, 0.922);   
+}
+  .yprice {
+    color: rgb(102, 218, 25);
+    font-size: 22px;
+  }
+  
+  .ycard button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(237, 91, 38);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .ycard button:hover {
+    opacity: 0.7;
+  }
+.monthly{
+    display: flex;
+    flex-wrap: wrap;
+}
+.yearly{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.benefits{
+    text-align: left;}
+.m-benifits{
+    text-align: left;
+    color: #000;
+}

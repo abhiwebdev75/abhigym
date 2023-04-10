@@ -1,0 +1,49 @@
+.classes-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    background-color: rgb(70, 195, 241);
+    color:white;
+  }
+  
+
+  .flip-card-back {
+    background-color: orange;
+    color: black;
+    transform: rotateY(180deg);
+  }
+.book{
+    color: black;
+    background-color: aqua;
+    margin-top: 10px;
+}
