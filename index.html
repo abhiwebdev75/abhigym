@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script rel="javascript" src="js\gym.js">
+    </script>
+    <title>Home-ABHIGYM</title>
+    <link rel="stylesheet" href="css\home.css">
+    <link rel="stylesheet" href="css\nav.css">
+    <link rel="icon" href="img\title-icon.png" type="title-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="H-div">
+            <div class="div1"> <img src="img\logo.jpg" height="55px" width="50px">
+            </div>
+            <div class="div2">
+                <h1 class="h-h1">Abhi Gym</h1>
+                <p class="h-p"> KEEP YOUR BODY HEALTHY</p>
+            </div>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="memberships.html">Memberships</a></li>
+                    <li><a href="About_us.html">About Us</a></li>
+                    <li><a href="Contact_us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <div style="background-color: black;">
+        <marquee scrollamount="10">
+            <p id="blink">
+                ** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Hello, Welcome to our Gym site
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp **
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp ** &nbsp&nbsp&nbsp&nbsp&nbsp Hello, Welcome to our Gym site
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp** &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            </p>
+        </marquee>
+        <main>
+
+            <section>
+                <div class="rt-container">
+                    <div class="col-rt-12">
+
+                        <div id="slider">
+                            <div class="slides">
+                                <div class="slider">
+                                    <div class="legend"></div>
+                                    <div class="content">
+                                        <div class="content-txt">
+                                            <h2>Welcome</h2>
+                                            <p>to our GYM, Workout is a necessary for us nowadays. <br>
+                                                to destroy your <i>lazyness</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="image"> <img src="img\gym.jpeg"> </div>
+                                </div>
+                                <div class="slider">
+                                    <div class="legend"></div>
+                                    <div class="content">
+                                        <div class="content-txt">
+                                            <h2>Running is best for all our muscles</h2>
+                                            <p>Don't dream of winning, train for it!<br>
+                                                Go fast enough to get there, but slow enough to see</p>
+                                        </div>
+                                    </div>
+                                    <div class="image"> <img src="img\gym2.jpeg"> </div>
+                                </div>
+                                <div class="slider">
+                                    <div class="legend"></div>
+                                    <div class="content">
+                                        <div class="content-txt">
+                                            <h2>Trainers</h2>
+                                            <p>We have many perfect trainers for making your body trained <br>
+                                                we also train girls
+                                                <br>AGE doesn't matter it is just a Number
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="image"> <img src="img\gym3.jpeg"> </div>
+                                </div>
+                                <div class="slider">
+                                    <div class="legend"></div>
+                                    <div class="content">
+                                        <div class="content-txt">
+                                            <h2>Body Back</h2>
+                                            <p>we have all types of gym equipments for making your Back muscles BOLD</p>
+                                        </div>
+                                    </div>
+                                    <div class="image"> <img src="img\gym4.jpg"> </div>
+                                </div>
+                            </div>
+
+                            <div class="switch">
+                                <ul>
+                                    <li>
+                                        <div class="on"></div>
+                                    </li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="sec2">
+            <div class="sec2-div">
+                <span class="h-h2" onclick="on()">Join us for A FREE Trial Demo</span>
+            </div>
+        </section>
+
+
+        <button class="open-button" onclick="openForm()"><span><img src="img\chat.png" height="35px"
+                    width="35px"></span></button>
+
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+
+        <section class="sec3">
+            <div class="grid-container">
+
+                <div class="grid-left">
+                    <div>
+                        <h3 id="timing"
+                            style="text-align: center; font-size: 30px; color: coral;text-shadow: 1px 2px orangered ;">
+                            TIMINGS</h3>
+                        <div>
+                            <table class="timing-table">
+                                <tr>
+                                    <th class="th"> Days </th>
+                                    <th class="th"> Workout</th>
+                                </tr>
+                                <tr>
+                                    <td> Monday </td>
+                                    <td> Biceps & Triceps workout</td>
+                                </tr>
+                                <tr>
+                                    <td> Tuesday </td>
+                                    <td> Chest workout</td>
+                                </tr>
+                                <tr>
+                                    <td> Wednesday </td>
+                                    <td> Leg Workout</td>
+                                </tr>
+                                <tr>
+                                    <td> Thrusday </td>
+                                    <td style="color:aqua; text-align: right;"> -REST Day-</td>
+                                </tr>
+                                <tr>
+                                    <td> Friday </td>
+                                    <td> Back workout</td>
+                                </tr>
+                                <tr>
+                                    <td> Saturday </td>
+                                    <td> Shoulder workout</td>
+                                </tr>
+                                <tr>
+                                    <td> Sunday </td>
+                                    <td style="color:aqua;text-align: right;"> -REST Day-</td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="grid-right">
+                    <div>
+                        <h3 style="text-align: center; font-size: 30px; color: coral;text-shadow: 1px 2px orangered ;">
+                            <a id="login">LOGIN </a>
+                            HERE
+                        </h3>
+                        <div class="login-box">
+                            <h2>Login</h2>
+                            <form>
+                                <div class="user-box">
+                                    <input type="text" name="Username" required>
+                                    <label>Username</label>
+                                </div>
+                                <div class="user-box">
+                                    <input type="password" name="Userpass" required>
+                                    <label>Password</label>
+                                </div>
+
+                                <div class="button-form">
+                                    <a href="#" class="submit"> Submit</a>
+                                    <div id="register">
+                                        Don't Have an account ?
+                                        <a onclick="on()" style="cursor: pointer;">Register</a>
+                                    </div>
+                                    <div id="overlay">
+                                        <div class="reg-bg">
+                                            <div class="reg-form-container">
+                                                <form class="register">
+                                                    <div class="Reg-container">
+                                                        <button id="x" onclick="off()">
+                                                            X
+                                                        </button>
+                                                        <h1 style="color: orangered;">Register</h1>
+                                                        <p style="color: rgb(241, 241, 241);">Kindly fill in this form
+                                                            to register.</p>
+                                                        <div class="registration">
+                                                            <div class="r-user"><label
+                                                                    for="username"><b>Username</b></label>
+                                                                <input type="text" id="username" required />
+                                                            </div>
+
+                                                            <div class="r-email"><label for="email"><b>Email</b></label>
+                                                                <input type="text" id="email" required />
+                                                            </div>
+
+                                                            <div class="r-pass"><label for="pwd"><b>Password</b></label>
+                                                                <input type="password" id="pwd" required />
+                                                            </div>
+
+                                                            <div class="r-rpass">
+                                                                <label for="pwd-repeat"><b>Repeat Password</b></label>
+                                                                <input type="password" id="pwd-repeat" required />
+                                                            </div>
+
+                                                            <button type="submit" class="r-register">Register</button>
+                                                        </div>
+                                                        <div>
+                                                            <p style="color: aliceblue;">Already have an account? <a
+                                                                    href="index.html#login" onclick="off()">Log in</a>
+                                                            </p>
+                                                        </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </section>
+    <section class="sec4">
+        <div class="row">
+            <div class="sec4head">
+                <h1 Class="sec4-h1">WHY CHOOSE OUR ABHIGYM</h1>
+                <strong class="sec4-strong">
+                    <p> Our Gym provide you a large variety of facilites olny for Our Members</p>
+                </strong>
+            </div>
+            <div class="group">
+                <div class="data">
+                    <div class="icon"><img src="img\exercise-bike-60x60.png">
+
+                    </div>
+                    <h3 class="group-h3"> plenty of equipment</h3>
+                    <p class="group-p">Each club has a huge range of all types of equipment, from cardio-vascular to
+                        weights to fuctional machines.</p>
+                </div>
+                <div class="data">
+                    <div class="icon"><img src="img\parking-60x30.png" height="60px">
+
+                    </div>
+                    <h3 class="group-h3">free parking</h3>
+                    <p class="group-p">All clubs has plenty of free parking.</p>
+                </div>
+                <div class="data">
+                    <div class="icon"><img src="img\locker-43x60.png">
+
+                    </div>
+                    <h3 class="group-h3">changing rooms</h3>
+                    <p class="group-p">You'll find showers,lockers, hairs driers and sockets available.</p>
+                </div>
+                <div class="data">
+                    <div class="icon"><img src="img\athlete-58x60.png">
+
+                    </div>
+                    <h3 class="group-h3">personal trainers</h3>
+                    <p class="group-p">Our Personal Trainers are on head to assist you with your training and
+                        provide complimentary inductions. </p>
+                </div>
+
+                <div class="data">
+                    <div class="icon"><img src="img\woman-55x60.png">
+
+                    </div>
+                    <h3 class="group-h3"> ladies only areas </h3>
+                    <p class="group-p"> For the ladies who prefer training in a ladies only environment we have a
+                        special seprate rooms for her.
+                    </p>
+                </div>
+                <div class="data">
+                    <div class="icon"><img src="img\dumbbell-60x53.png" height="55px">
+
+                    </div>
+                    <h3 class="group-h3">weight rooms</h3>
+                    <p class="group-p">we have a wide range of both fixed machines and free weights.</p>
+                </div>
+                <div class="data">
+                    <div class="icon"><img src="img\water-droplet-46x60.png">
+
+                    </div>
+                    <h3 class="group-h3">relaxation rooms</h3>
+                    <p class="group-p">Facilities vary by club some have spa area featuring saunas, steam rooms,
+                        aromatherapy and sun beds.</p>
+                </div>
+                <div class="data">
+                    <div class="icon"><img src="img\classes-60x56.png">
+
+                    </div>
+                    <h3 class="group-h3">Daily classes</h3>
+                    <p class="group-p">All classes are included in membership. Checkout our local timetable on the
+                        webpage.</p>
+                </div>
+            </div>
+        </div>
+        <div class="t-slider">
+            <h1 style="color: orangered;font-weight: bolder; text-align: center;">WE PROVIDE YOU ARE BEST TRAINERS TO
+                ACHIEVE YOUR GOALS </h1>
+            <div class="main">
+                <div class="tslides">
+                    <img src="img\trainer1.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading">WEIGHT-LIFTER</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer2.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading"> BODY BUILDING</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer3.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading"> LADY TRAINER</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer4.jpeg" alt="" class="slide-img">
+                    <h3 class="slide-heading">WRESTLING TRAINER</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer5.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading">BODY BUILDING</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer6.png" alt="" class="slide-img">
+                    <h3 class="slide-heading">CARDIO TRAINER</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer7.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading">BELLY DANCER</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer8.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading">LADY BODY BUILDING</h3>
+                </div>
+                <div class="tslides">
+                    <img src="img\trainer9.jpg" alt="" class="slide-img">
+                    <h3 class="slide-heading">YOGA TRAINER</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <footer>
+        <div class="foot-logo">
+            <div class="f-logodiv">
+                <div class="div1"> <img src="img\logo.jpg" height="55px" width="50px">
+                </div>
+                <div class="div2">
+                    <h1 class="f-h1">Abhi Gym</h1>
+                    <p class="f-p"> KEEP YOUR BODY HEALTHY</p>
+                </div>
+            </div>
+            <div class="f-divs">
+                <h3 class="f-h3">Quick Links</h3>
+                <ul class="f-links">
+                    <li><a href="#timing">Time table</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#login">Login </a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="f-divs">
+                <h3 class="f-h3">Follow us</h3>
+                <ul class="f-slinks">
+                    <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x"></i>&nbsp
+                            &nbsp&nbspFacebook</a></li>
+                    <li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x"></i> Twitter</a></li>
+                    <li class="instagram"><a href="#"><i class="fa fa-instagram fa-2x"></i> Instagram</a></li>
+                    <li class="google"><a href="#"><i class="fa fa-google fa-2x"></i></a> Google</li>
+                    <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp fa-2x"></i> Whatsapp</a></li>
+
+                </ul>
+            </div>
+            <div class="f-divs">
+                <h3 class="f-h3">Contact Us</h3>
+                <ul class="f-links">
+                    <li style="color:white"><strong>Ph no.</strong></li>
+                    <li>98888-12316<br>012222-584445
+                    </li>
+
+                    <li style="color:white"><strong> Mail us on</strong></li>
+                    <li>abhigym@gmail.com</li>
+                </ul>
+            </div>
+
+
+    </footer>
+</body>
+
+</html>
